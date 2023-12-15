@@ -1,0 +1,202 @@
+@media screen and (min-width:700px){
+    
+    .cards-all{
+        flex-direction: row;
+        width: 70vw;
+        justify-content: center;
+    }
+
+    .home_action li{
+        font-size: 1.2em;
+    }
+    
+    .cards_link{
+        width: 30em;
+    }
+
+    .nossa_escola{
+        width: 50vw;
+    }
+
+    .h_wrapper{
+        flex-direction: row;
+    }
+    
+    .imagem{
+        /* margin-top: 17.7em; */
+        display: unset;
+        object-fit: contain;
+        height: 100%;
+        width: 50%;
+        
+    }
+
+    .home_action li a{
+        font-size: 1.4em;
+    }
+
+    #section1{
+        height: fit-content;
+        justify-content: space-evenly;
+        /* height: 90vh; */
+    }
+
+    .text_section1 h1{
+        width: 8em;
+        font-size: 4em;
+        text-align: left;
+        height: 4em;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+
+    .home_action{
+        font-size: 1.2em;
+        gap: 3em;
+    }
+
+    .text_section1 a{
+        width: 10em;
+        font-size: 1.6em;
+    }
+
+    #section2{
+        padding: 4em 0;
+        /* height: 100vh; */
+        /* justify-content: space-evenly; */
+    }
+
+    #section2 h2{
+        padding: 0.5em 0;
+        font-size: 4em;
+        font-weight: 800;
+    }
+
+    .cards-all{
+        /* border: 2px solid black; */
+        width: 130em;
+        padding: 0 5em;
+        justify-content: space-evenly;
+        /* padding-bottom: 5em; */
+    }
+
+    .botao_section2{
+        margin-top: 1.5em;
+        font-size: 1.6em;
+    }
+
+    .cards_link{
+        width: 40em;
+    }
+
+    .curso_cards{
+        font-size: 1.6em;
+    }
+
+    .curso_cards div h3{
+        font-size: 1.4em;
+    }
+
+    .curso_cards div p{
+        font-size: 1em;
+    }    
+
+    .wrapper{
+        padding: 2em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .wrapper h2{
+        font-size: 3em;
+    }
+
+
+    .wrapper p{
+        font-weight: unset;
+        font-size: 1.2em;
+    }
+
+    .nossa_escola{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100%;
+        width: 50%;
+        /* padding-top: 5em; */
+        padding-bottom: 2em;
+        font-size: 1.4em;
+    }
+
+    #section3{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-top: 4em ;
+    }
+
+    .sec3_wrapper{
+
+        height: fit-content;
+        width: 110em;
+        padding: unset;
+        /* height: 60vh; */
+        position: unset;
+        background: unset;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: flex-end;
+        /* color: white;
+        padding: 1.6em; */
+        
+    }
+
+    .sec_school{
+        display: none;
+    }
+
+    .sec_img{
+
+        padding: unset;
+        display: unset;
+        width:  70%;
+        /* margin-top: auto; */
+        height: 100%;
+        margin-right: 15em;
+        object-fit: contain;
+    }
+
+    #section4 h2{
+        padding: 1em 0;
+        font-size: 3em;
+    }
+
+    #section4 img{
+        display: none;
+    }
+
+    iframe{
+        /* border: 2px solid black; */
+        width: 100%;
+        display: unset;
+    }
+
+
+    .adress{
+        width: 110em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .para{
+        font-size: 1.5em;
+    }
+
+
+
+}
